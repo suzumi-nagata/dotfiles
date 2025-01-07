@@ -3,9 +3,9 @@
 BASE_DATE=${1}
 END_DATE=$(date +%s)
 
-ORG_JOURNAL_DIR="/home/nagata/Org/roam/journal"
+ORG_JOURNAL_DIR=""
 
-TMP_FILE=$(mktemp)
+TMP_FILE="$(mktemp)_$(date --date="${BASE_DATE}" '+%Y-%m-%d')_$(date '+%Y-%m-%d').org"
 
 echo "Saving journal to $TMP_FILE"
 
