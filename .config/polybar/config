@@ -47,7 +47,7 @@ module-margin-right = 0
 
 ; Font
 font-0 = Fira Code:style=Bold:size=10;3
-font-1 = Font Awesome 6 Free Solid:size=11;3
+font-1 = Font Awesome 7 Free Solid:size=11;3
 
 ; Modules
 modules-left   = i3
@@ -98,7 +98,7 @@ cursor-scroll = ns-resize
 
 ; ; Font
 ; font-0 = Fira Code:style=Bold:size=10;3
-; font-1 = Font Awesome 5 Free Solid:size=12;3
+; font-1 = Font Awesome 7 Free Solid:size=12;3
 
 ; ; Modules
 ; modules-left   = thunar termite firefox vscode gimp
@@ -196,7 +196,7 @@ click-right = ~/.config/polybar/scripts/light.sh --min
 type = internal/battery
 battery = BAT0
 adapter = AC
-full-at = 100
+full-at = 99
 time-format = %H:%M
 
 format-charging = <animation-charging> <label-charging>
@@ -259,7 +259,7 @@ label-urgent-padding    = 2
 
 [module/wireless-network]
 type = internal/network
-interface = wlp3s0
+interface = wlan0
 interval = 3.0
 ; udspeed-minwidth = 0
 ; format-connected =<ramp-signal> <label-connected>

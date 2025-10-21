@@ -223,7 +223,7 @@ assign [class="Zotero"] $ws9
 # ws10
 assign [class="thunderbird"] $ws10
 
-exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/nagata/.config/i3/layouts/workspace09.json'"
+exec --no-startup-id "i3-msg 'workspace 2; append_layout /home/suzumi/.config/i3/layouts/workspace09.json'"
 
 ##############################
 #### Startup applications ####
