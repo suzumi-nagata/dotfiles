@@ -28,3 +28,6 @@
     autoStash = true
 [fetch]
     prune = true
+[user]
+	email = suzumi.nag@gmail.com
+	name = Suzumi Nagata
